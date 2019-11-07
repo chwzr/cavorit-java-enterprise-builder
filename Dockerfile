@@ -2,6 +2,6 @@ FROM centos:7
 LABEL maintainer="felix.koppe@cavorit.de"
 ENV container docker
 
-RUN yum install -y java-1.8.0-openjdk-headless
+RUN yum install -y java-1.8.0-openjdk-headless maven nodejs
 
 CMD ["bash"]
